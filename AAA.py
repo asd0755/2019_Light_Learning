@@ -6,7 +6,7 @@ from keras import regularizers
 import matplotlib.pylab as plt
 import h5py
 
-from .LineModule import LineModule
+from Tensor.LineModule import LineModule
 
 
 H5_PATH="./DATA_A_TO_S.hdf5"
@@ -30,7 +30,7 @@ ran=y_train.shape[1]
 
 
 
-newmodel = Module(drop_rate)
+newmodel = LineModule(drop_rate)
 line_1 = newmodel.execute()
 line_2 = newmodel.execute()
 line_3 = newmodel.execute()
