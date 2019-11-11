@@ -6,7 +6,7 @@ from keras import regularizers
 import matplotlib.pylab as plt
 import h5py
 
-from . import exmodel
+from .LineModule import LineModule
 
 
 H5_PATH="./DATA_A_TO_S.hdf5"

@@ -7,7 +7,7 @@ Created on Sun Nov  3 20:56:50 2019
 
 
 
-class Module:
+class LineModule:
     def __init__(self, drop_rate):
         self.H5_PATH="./DATA_A_TO_S.hdf5"
 
